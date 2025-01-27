@@ -9,7 +9,7 @@ country: "gb"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "55.8724453"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-4.2981725"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Mar 5, Mar 18, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "FIXME"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-03-05      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-03-18       # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -17,7 +17,7 @@ instructor: ["Ryan Field", "Iain Barrass", "William Haese-Hill", "Adrien Morison
 helper: ["Adiren Morison", "William Haese-Hill", "Iain Barrass", "Ryan Field"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["ryan.field@glasgow.ac.uk","shw-admin@glasgow.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: 1220749457489 # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 what3words: "///bend.swaps.warm" # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 ---
 
@@ -272,26 +272,10 @@ Display the contact email address set in the configuration file.
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
 
-{% comment %}
-WHO CAN ATTEND?
-
-If you would like to specify who can attend the workshop,
-you can use the section below.
-
-Move the 'endcomment' tag above the beginning of the following
-<p> tag to make this section visible.
-
-Edit the text to match who can attend the workshop. For instance:
-- This workshop is open to affiliates to ABC university.
-- This workshop is open to the public.
-- If you are interested in attending this workshop, contact me@example.com
-  for more information
-
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This is primarily aimed at PhD students and ECAs who wish to improve their software skills, but is open to all members of SHW.
 </p>
-{% endcomment %}
 
 <hr/>
 
