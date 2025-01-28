@@ -9,8 +9,8 @@ country: "gb"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "55.8724453"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-4.2981725"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humandate: "Feb 5 2025, Feb 18 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "09:00 am - 4:30 pm GMT"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-03-05      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-03-18       # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Ryan Field", "Iain Barrass", "William Haese-Hill", "Adrien Morison"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -369,7 +369,7 @@ of code below the Schedule `<h2>` header below with
 <h2 id="schedule">Schedule</h2>
 
 {% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
+{% include custom-schedule.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/schedule.html %}
 {% elsif site.carpentry == "lc" %}
