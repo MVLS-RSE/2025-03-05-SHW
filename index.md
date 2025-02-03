@@ -274,7 +274,7 @@ Display the contact email address set in the configuration file.
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This is primarily aimed at PhD students and ECAs who wish to improve their software skills, but is open to all members of SHW.
+    This is primarily aimed at PhD students and ECRs who wish to improve their software skills, but is open to all members of SHW.
 </p>
 
 <hr/>
